@@ -1,0 +1,40 @@
+*{
+  background-image: url(https://cdn.pixabay.com/photo/2016/11/21/13/58/ball-1845546_640.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.quiz-container {
+  width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color:rgba(240, 248, 255, 0.651);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.question-section {
+  margin-bottom: 20px;
+}
+
+.question-count {
+  margin-bottom: 10px;
+}
+
+.answer-section button {
+  margin: 5px;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.answer-section button:hover {
+  background-color: #0056b3;
+}
+
+.score-section {
+  font-size: 24px;
+}
